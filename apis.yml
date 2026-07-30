@@ -1,23 +1,81 @@
 aid: lanch
 name: Lanch
-description: 'Lanch is a company surfaced as a portfolio company of hv-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'LANCH GmbH is a Berlin-based food-tech startup that builds creator-led
+  virtual restaurant brands for the delivery market. Founded by Nono Konopka and Jonas
+  Meynert and headquartered at Schoenhauser Allee 180 in Berlin, LANCH develops food
+  brands together with German influencers, musicians and athletes, then scales them
+  through franchise partners and ghost-kitchen partners operating out of existing
+  restaurant kitchens. Its two flagship brands are Loco Chicken (halal-certified wings,
+  filets, burgers and chicken-and-waffle creations) and Happy Slice (hand-pulled pinsa-dough
+  pizza, dips and cookies), both distributed through delivery marketplaces including
+  Wolt, Lieferando and Uber Eats. The company is backed by HV Capital and Felix Capital
+  alongside founders of FlixBus, Gorillas, Flaschenpost, Glovo, Foodspring, Foodora,
+  Honest Food and Finleap. LANCH publishes a marketing and partner-recruitment website
+  only; as of this enrichment pass it exposes no public developer portal, API documentation,
+  machine-readable API specification or SDK surface.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/65df5b96f5558ae052ff6d25/65e8c44ae66ecf909e52b509_Webclip.png
 url: https://raw.githubusercontent.com/api-evangelist/lanch/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - hv-capital
+- felix-capital
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Food
+- Food Tech
+- Food Delivery
+- Restaurants
+- Franchise
+- Ghost Kitchen
+- Creator Economy
+- Germany
 apis: []
+common:
+- type: DomainSecurity
+  url: security/lanch-domain-security.yml
+- type: Website
+  url: https://www.lanch.com/
+- type: PrivacyPolicy
+  url: https://www.lanch.com/datenschutz
+- type: TermsOfService
+  url: https://www.lanch.com/agb
+- type: LegalNotice
+  url: https://www.lanch.com/impressum
+- type: DataProcessingAgreement
+  url: https://www.lanch.com/auftragsverarbeitungsvertrag
+- type: Careers
+  url: https://lanch.jobs.personio.de/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/lanch/
+- type: WellKnown
+  url: well-known/lanch-well-known.yml
+- type: LLMsTxt
+  url: llms/lanch-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
