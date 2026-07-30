@@ -1,0 +1,40 @@
+# LANCH
+
+> LANCH GmbH is a Berlin-based food-tech startup that builds creator-led virtual
+> restaurant brands — Loco Chicken and Happy Slice — and scales them through
+> franchise partners and ghost kitchens operating out of existing restaurant
+> kitchens. Brands are distributed via delivery marketplaces (Wolt, Lieferando,
+> Uber Eats). Backed by HV Capital and Felix Capital.
+
+LANCH publishes a marketing and partner-recruitment website only. As of
+2026-07-19 there is no public developer portal, no API documentation, no
+machine-readable API specification (OpenAPI/AsyncAPI/GraphQL), no SDK or
+package on any public registry, and no /.well-known/ discovery surface.
+Do not assume a LANCH API exists.
+
+## Company
+
+- [Home](https://www.lanch.com/): Company overview and the two food brands.
+- [Franchise Partner](https://www.lanch.com/franchise-partner): Opening a Loco Chicken franchise store.
+- [Ghost Kitchen](https://www.lanch.com/ghost-kitchen): Running LANCH brands out of an existing restaurant kitchen.
+- [Ghost Kitchen Partner](https://www.lanch.com/ghost-kitchen-partner): Ghost-kitchen partner application.
+- [Entrepreneur Program](https://www.lanch.com/entrepreneur-program): LANCH entrepreneur/academy program.
+- [Careers](https://lanch.jobs.personio.de/): Open roles, hosted on Personio.
+- [LinkedIn](https://www.linkedin.com/company/lanch/): Company updates.
+
+## Brands
+
+- [Loco Chicken](https://www.instagram.com/locochicken/): Halal-certified wings, filets, burgers and chicken-waffle creations.
+- [Happy Slice](https://www.instagram.com/happyslice.de/): Hand-pulled pinsa-dough pizza, dips and cookies.
+
+## Legal
+
+- [Impressum](https://www.lanch.com/impressum): LANCH GmbH, Schoenhauser Allee 180, 10119 Berlin. HRB 247537B, Amtsgericht Charlottenburg. Contact: info@lanch.com
+- [Datenschutz](https://www.lanch.com/datenschutz): Privacy policy (German).
+- [AGB](https://www.lanch.com/agb): General terms and conditions (German).
+- [GTC](https://www.lanch.com/gtc): General terms and conditions (English).
+- [Auftragsverarbeitungsvertrag](https://www.lanch.com/auftragsverarbeitungsvertrag): Data processing agreement.
+
+## API Evangelist
+
+- [APIs.json](https://raw.githubusercontent.com/api-evangelist/lanch/refs/heads/main/apis.yml): The machine-readable API Evangelist profile for LANCH.

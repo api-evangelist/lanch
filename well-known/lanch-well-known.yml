@@ -1,0 +1,26 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.lanch.com/
+host: https://www.lanch.com
+notes: >-
+  Probed the LANCH corporate host on 2026-07-19. No /.well-known/ discovery
+  documents are published. LANCH runs a Webflow-hosted marketing site with no
+  developer or API surface, so an empty well-known surface is the expected and
+  accurate result. Recorded so re-runs can detect a future change.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 200
+- path: /sitemap.xml
+  status: 200
